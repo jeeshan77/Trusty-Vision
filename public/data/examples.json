@@ -1,0 +1,58 @@
+[
+  {
+    "preview": "/projects/electronic-ecommerce.png",
+    "text": "An elegant and responsive e-commerce website built to showcase and sell a range of electronic audio accessories including headphones, earphones, neckbands, and earbuds. Designed to provide users with a smooth browsing and shopping experience, the platform highlights modern UI/UX and product-focused design.",
+    "title": "Electronic E-commerce",
+    "tags": ["React", "E-commerce", "Tailwind"],
+    "images": ["/projects/electronic-ecommerce.png"]
+  },
+  {
+    "preview": "/projects/gaming.png",
+    "text": "Zentrix is a modern, responsive gaming store website designed to deliver an immersive shopping experience for gamers. Featuring a sleek UI, dynamic product displays, and smooth navigation, Zentrix lets users explore and purchase the latest games, consoles, and accessories.",
+    "title": "Gaming Website",
+    "tags": ["React", "Gaming", "Store"],
+    "images": ["/projects/gaming.png"]
+  },
+  {
+    "preview": "/projects/3dflow.png",
+    "text": "3D Coverflow is an interactive web component that displays items, images, or albums in a smooth 3D carousel-style animation. Built with HTML, CSS, Tailwind, and JavaScript, it delivers a visually engaging way to showcase portfolios, products, or media collections.",
+    "title": "3D Coverflow",
+    "tags": ["JavaScript", "3D", "Animation"],
+    "images": ["/projects/3dflow.png"]
+  },
+  {
+    "preview": "/projects/blogwebsite.png",
+    "text": "A responsive and modern blogging platform where users can read insightful articles on various topics. This project demonstrates a clean design, dynamic content rendering, and smooth user navigation—ideal for sharing knowledge or personal thoughts online.",
+    "title": "Blog Website",
+    "tags": ["React", "Blog", "Responsive"],
+    "images": ["/projects/blogwebsite.png"]
+  },
+  {
+    "preview": "/projects/fruits-ecom.png",
+    "text": "FruitsRootz is a modern, full-stack e-commerce platform built for selling fresh fruits and vegetables online. Designed with a clean and responsive UI, the website allows users to explore a wide range of organic produce, view best-seller products, and enjoy a smooth shopping experience with real-time cart updates and intuitive navigation.",
+    "title": "Grocery E-commerce",
+    "tags": ["React", "E-commerce", "Tailwind"],
+    "images": ["/projects/fruits-ecom.png"]
+  },
+  {
+    "preview": "/projects/qr-code.png",
+    "text": "A sleek and fast QR Code Generator built using React. This tool allows users to generate QR codes instantly for text, URLs, emails, phone numbers, and more—making it useful for personal, business, or event-based sharing. Easily download and share your custom QR codes in seconds.",
+    "title": "QR-Code Generator",
+    "tags": ["React", "QR", "Tool"],
+    "images": ["/projects/qr-code.png"]
+  },
+  {
+    "preview": "/projects/travelwebsitelogo.png",
+    "text": "Wanderly is a modern travel website designed to inspire and guide travelers in discovering the world’s most beautiful destinations. It features curated travel spots, weekly offers, and destination guides with a clean, responsive design for a seamless experience on any device.",
+    "title": "Travel Website",
+    "tags": ["HTML", "Tailwind", "Travel"],
+    "images": ["/projects/travelwebsitelogo.png"]
+  },
+  {
+    "preview": "/projects/text-analyzer.png",
+    "text": "The Text Analyzer Website is a web-based application designed to help users analyze, manipulate, and extract insights from textual data efficiently. Built using React, JavaScript, HTML, and CSS, the platform provides a user-friendly interface where users can input or paste any block of text and perform various analytical functions.",
+    "title": "Text Analyzer",
+    "tags": ["React", "Text Tool", "Analyzer"],
+    "images": ["/projects/text-analyzer.png"]
+  }
+]

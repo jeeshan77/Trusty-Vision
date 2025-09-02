@@ -15,7 +15,6 @@
 // import DevelopmentProcess from '@/components/DevelopmentProcess';
 // import CreditFooter from '@/components/CreditFotter'
 
-
 // export default function Home() {
 //   const [domLoaded, setDomLoaded] = useState(false);
 //   useEffect(() => {
@@ -71,9 +70,9 @@ export default function Home() {
     <>
       {domLoaded && (
         <Preloader>
-          <div className="flex h-full w-full flex-col gap-5">
+          <div className='flex h-full w-full flex-col gap-5'>
             <HomepageHeader />
-            <HomepageBanner className="mt-52" />
+            <HomepageBanner className='mt-52' />
             <CoreSection />
             {/* <HomepageExamples /> */}
             <HomepageTechnologies />

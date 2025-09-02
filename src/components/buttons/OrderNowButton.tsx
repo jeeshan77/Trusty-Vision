@@ -56,13 +56,11 @@ export default function OrderNowButton(props: OrderNowButtonProps) {
     //   Order now!
     // </div>
     <div
-      className={`${className} relative inline-block cursor-pointer rounded-3xl bg-gradient-to-r from-purple-600 via-pink-500 to-red-500 px-10 py-4 text-center font-bold text-white text-3xl shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:animate-pulse`}
+      className={`${className} relative inline-block cursor-pointer rounded-3xl bg-gradient-to-r from-purple-600 via-pink-500 to-red-500 px-10 py-4 text-center text-3xl font-bold text-white shadow-lg transition-all duration-300 hover:scale-105 hover:animate-pulse hover:shadow-2xl`}
       onClick={handleClick}
     >
       Order Now!
-      <span className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-0 h-1 bg-white rounded-full transition-all duration-300 group-hover:w-3/4"></span>
+      <span className='absolute -bottom-2 left-1/2 h-1 w-0 -translate-x-1/2 rounded-full bg-white transition-all duration-300 group-hover:w-3/4'></span>
     </div>
-
-
   );
 }

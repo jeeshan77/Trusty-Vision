@@ -36,11 +36,9 @@ const ExampleCard = (props: ExampleCardProps) => {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    
-
     <div
       className={`${className} relative flex w-full flex-col items-center justify-center gap-5 text-secondary md:h-[600px] md:w-[600px]`}
-      >
+    >
       <div
         onMouseEnter={() => setHover(true)}
         onMouseLeave={() => setHover(false)}
@@ -49,14 +47,14 @@ const ExampleCard = (props: ExampleCardProps) => {
         } relative flex h-[250px] min-h-[180px] w-full items-center justify-center overflow-hidden rounded-3xl bg-gradient-to-br  object-cover shadow-tl shadow-primary transition-colors delay-1000 md:h-[400px] md:min-h-[200px]`}
       >
         <Carousel
-          leftControl={<CarouselControl className="-rotate-90" />}
-          rightControl={<CarouselControl className="rotate-90" />}
+          leftControl={<CarouselControl className='-rotate-90' />}
+          rightControl={<CarouselControl className='rotate-90' />}
           slide={false}
-          className="relative h-full w-full"
+          className='relative h-full w-full'
         >
-          <div className="relative h-full w-full">
+          <div className='relative h-full w-full'>
             <Image
-              alt="example-image"
+              alt='example-image'
               src={preview}
               width={500}
               height={500}
@@ -66,49 +64,49 @@ const ExampleCard = (props: ExampleCardProps) => {
             />
           </div>
           {images.map((image, index) => (
-            <div key={index} className="relative h-full w-full">
+            <div key={index} className='relative h-full w-full'>
               <Image
-                alt="example-image"
+                alt='example-image'
                 src={image}
                 width={500}
                 height={500}
-                className="absolute top-0 h-auto w-full  object-contain"
-                />
+                className='absolute top-0 h-auto w-full  object-contain'
+              />
             </div>
           ))}
         </Carousel>
       </div>
 
       {/* Tags */}
-      <div className="flex flex-wrap gap-2 self-start">
+      <div className='flex flex-wrap gap-2 self-start'>
         {tags?.map((tag, index) => (
-          <div key={index} className="rounded-xl bg-primary/40 p-2">
+          <div key={index} className='rounded-xl bg-primary/40 p-2'>
             {tag}
           </div>
         ))}
       </div>
 
       {/* Title */}
-      <div className="w-full text-left font-exo2 text-3xl">{title}</div>
+      <div className='w-full text-left font-exo2 text-3xl'>{title}</div>
 
       {/* Description with Read More */}
-      <div className="w-full break-words text-justify font-quicksand text-2xl text-gray-300">
+      <div className='w-full break-words text-justify font-quicksand text-2xl text-gray-300'>
         {expanded ? (
           <>
             <p>{text}</p>
             <button
               onClick={() => setExpanded(false)}
-              className="mt-2 text-primary text-2xl underline hover:text-secondary transition"
-              >
+              className='mt-2 text-2xl text-primary underline transition hover:text-secondary'
+            >
               Show less
             </button>
           </>
         ) : (
           <>
-            <p className="line-clamp-3">{text}</p>
+            <p className='line-clamp-3'>{text}</p>
             <button
               onClick={() => setExpanded(true)}
-              className="mt-1 text-primary text-2xl underline hover:text-secondary transition"
+              className='mt-1 text-2xl text-primary underline transition hover:text-secondary'
             >
               Read more
             </button>
@@ -116,9 +114,8 @@ const ExampleCard = (props: ExampleCardProps) => {
         )}
       </div>
 
-      <div className="block w-1/2 border-b-4 border-primary md:hidden"></div>
+      <div className='block w-1/2 border-b-4 border-primary md:hidden'></div>
     </div>
-
   );
 };
 
@@ -135,33 +132,33 @@ export default function HomepageExamples(props: ExamplesProps) {
         trigger: bgTextRef.current,
         start: 'top bottom',
         end: 'bottom top',
-        scrub: true,
-      },
+        scrub: true
+      }
     });
   }, []);
 
   return (
     <div
-      id="examples"
+      id='examples'
       className={`${className} relative flex h-full w-full flex-col items-center justify-center gap-10 p-5 md:p-10`}
     >
       <Link
-                    href="/"
-                    className="absolute top-6 left-6 flex items-center text-gray-400 hover:text-white"
-                >
-                    <HiArrowLeft className="mr-2" size={24} />
-                    Home
-                </Link>
-      <div className="spotlight spotlight-left"></div>
-      <div className="font-sans text-5xl  uppercase text-secondary">Examples</div>
+        href='/'
+        className='absolute left-6 top-6 flex items-center text-gray-400 hover:text-white'
+      >
+        <HiArrowLeft className='mr-2' size={24} />
+        Home
+      </Link>
+      <div className='spotlight spotlight-left'></div>
+      <div className='font-sans text-5xl  uppercase text-secondary'>Examples</div>
       <div
         ref={bgTextRef}
-        className="text-shadow absolute z-0 hidden -rotate-90 transform text-start text-[80px] uppercase tracking-wider  text-background brightness-50  lg:block lg:text-[80px] "
+        className='text-shadow absolute z-0 hidden -rotate-90 transform text-start text-[80px] uppercase tracking-wider  text-background brightness-50  lg:block lg:text-[80px] '
       >
         featured projects
       </div>
 
-      <div className="z-30 flex h-full w-full flex-wrap items-center justify-around gap-10">
+      <div className='z-30 flex h-full w-full flex-wrap items-center justify-around gap-10'>
         {examples.map((example, index) => (
           <ExampleCard
             preview={example.preview}

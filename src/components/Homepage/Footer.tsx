@@ -3,12 +3,8 @@ import { Tooltip } from 'flowbite-react';
 import gsap from 'gsap';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
-import {
-  PiCheckCircleBold,
-  PiEnvelopeSimpleBold,
-  PiPhoneBold,
-} from 'react-icons/pi';
-import { FaGithub, FaLinkedin, FaInstagram, FaTelegram, FaTwitter } from "react-icons/fa";
+import { PiCheckCircleBold, PiEnvelopeSimpleBold, PiPhoneBold } from 'react-icons/pi';
+import { FaGithub, FaLinkedin, FaInstagram, FaTelegram, FaTwitter } from 'react-icons/fa';
 
 interface HomepageFooterProps {
   className?: string;
@@ -42,28 +38,42 @@ export default function HomepageFooter(props: HomepageFooterProps) {
 
       {/* Social Icons */}
       <div className='flex flex-row gap-4 text-5xl text-secondary md:gap-10 md:text-6xl'>
-        <Link href='https://www.linkedin.com/in/jeeshan-gosain/' target='_blank'
-          className='cursor-pointer text-secondary hover:text-primary'>
+        <Link
+          href='https://www.linkedin.com/in/jeeshan-gosain/'
+          target='_blank'
+          className='cursor-pointer text-secondary hover:text-primary'
+        >
           <FaLinkedin />
         </Link>
-        <Link href='https://github.com/jeeshan77' target='_blank'
-          className='cursor-pointer text-secondary hover:text-primary'>
+        <Link
+          href='https://github.com/jeeshan77'
+          target='_blank'
+          className='cursor-pointer text-secondary hover:text-primary'
+        >
           <FaGithub />
         </Link>
-        <Link href='https://www.instagram.com/jaanu_._.7/#' target='_blank'
-          className='cursor-pointer text-secondary hover:text-primary'>
+        <Link
+          href='https://www.instagram.com/jaanu_._.7/#'
+          target='_blank'
+          className='cursor-pointer text-secondary hover:text-primary'
+        >
           <FaInstagram />
         </Link>
-        <Link href='https://t.me/trustyvision7' target='_blank'
-          className='cursor-pointer text-secondary hover:text-primary'>
+        <Link
+          href='https://t.me/trustyvision7'
+          target='_blank'
+          className='cursor-pointer text-secondary hover:text-primary'
+        >
           <FaTelegram />
         </Link>
-        <Link href='https://x.com/jeeshan7704' target='_blank'
-          className='cursor-pointer text-secondary hover:text-primary'>
+        <Link
+          href='https://x.com/jeeshan7704'
+          target='_blank'
+          className='cursor-pointer text-secondary hover:text-primary'
+        >
           <FaTwitter />
         </Link>
       </div>
-
 
       {/* Services Heading */}
       <span className='cursor-default self-center font-quicksand text-3xl text-primary md:self-start md:px-20'>
@@ -71,19 +81,31 @@ export default function HomepageFooter(props: HomepageFooterProps) {
       </span>
 
       {/* Desktop Layout */}
-      <div className='hidden w-full md:flex md:flex-row md:justify-between md:px-20 font-quicksand text-2xl text-secondary'>
+      <div className='hidden w-full font-quicksand text-2xl text-secondary md:flex md:flex-row md:justify-between md:px-20'>
         {/* Desktop Services */}
         <div className='flex flex-col text-start'>
-          <div onClick={() => setSectionId('#technologies')} className='cursor-pointer hover:text-primary'>
+          <div
+            onClick={() => setSectionId('#technologies')}
+            className='cursor-pointer hover:text-primary'
+          >
             Technologies
           </div>
-          <div onClick={() => setSectionId('#examples')} className='cursor-pointer hover:text-primary'>
+          <div
+            onClick={() => setSectionId('#examples')}
+            className='cursor-pointer hover:text-primary'
+          >
             Examples
           </div>
-          <div onClick={() => setSectionId('#reviews')} className='cursor-pointer hover:text-primary'>
+          <div
+            onClick={() => setSectionId('#reviews')}
+            className='cursor-pointer hover:text-primary'
+          >
             Reviews
           </div>
-          <div onClick={() => setSectionId('#aboutUs')} className='cursor-pointer hover:text-primary'>
+          <div
+            onClick={() => setSectionId('#aboutUs')}
+            className='cursor-pointer hover:text-primary'
+          >
             About Us
           </div>
         </div>
@@ -133,19 +155,31 @@ export default function HomepageFooter(props: HomepageFooterProps) {
       </div>
 
       {/* Mobile Layout */}
-      <div className='flex w-full flex-col items-center text-center gap-2 font-quicksand text-2xl text-secondary md:hidden'>
+      <div className='flex w-full flex-col items-center gap-2 text-center font-quicksand text-2xl text-secondary md:hidden'>
         {/* Services */}
         <div className='flex flex-col gap-2'>
-          <div onClick={() => setSectionId('#technologies')} className='cursor-pointer hover:text-primary'>
+          <div
+            onClick={() => setSectionId('#technologies')}
+            className='cursor-pointer hover:text-primary'
+          >
             Technologies
           </div>
-          <div onClick={() => setSectionId('#examples')} className='cursor-pointer hover:text-primary'>
+          <div
+            onClick={() => setSectionId('#examples')}
+            className='cursor-pointer hover:text-primary'
+          >
             Examples
           </div>
-          <div onClick={() => setSectionId('#reviews')} className='cursor-pointer hover:text-primary'>
+          <div
+            onClick={() => setSectionId('#reviews')}
+            className='cursor-pointer hover:text-primary'
+          >
             Reviews
           </div>
-          <div onClick={() => setSectionId('#aboutUs')} className='cursor-pointer hover:text-primary'>
+          <div
+            onClick={() => setSectionId('#aboutUs')}
+            className='cursor-pointer hover:text-primary'
+          >
             About Us
           </div>
         </div>

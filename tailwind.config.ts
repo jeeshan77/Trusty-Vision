@@ -16,10 +16,10 @@ const config: Config = {
         coiny: ['var(--font-coiny)'],
         dongle: ['var(--font-dongle)'],
         quicksand: ['var(--font-quicksand)'],
-        comfortaa : ['var(--font-comfortaa)'],
+        comfortaa: ['var(--font-comfortaa)'],
         empathy: ['HighEmpathy', 'cursive'],
         montserrat: ['var(--font-montserrat)'],
-        exo2: ["var(--font-exo2)", "sans-serif"],
+        exo2: ['var(--font-exo2)', 'sans-serif']
       },
       colors: {
         background: '#000000',

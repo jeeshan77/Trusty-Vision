@@ -67,4 +67,4 @@ export default function ImageBanner({ className }: { className?: string }) {
       </div>
     </>
   );
-}
+}  

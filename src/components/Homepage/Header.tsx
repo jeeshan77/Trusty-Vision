@@ -43,16 +43,27 @@ export default function HomepageHeader() {
     }
   }, [sectionId]);
 
+  // const handleNavClick = (id?: string) => {
+  //   if (id) setSectionId(id);
+  //   setIsOpen(false);
+  // };
   const handleNavClick = (id?: string) => {
-    if (id) setSectionId(id);
-    setIsOpen(false);
+    if (!id) return;
+
+    // if mobile menu is open, wait for collapse animation
+    if (isOpen) {
+      setIsOpen(false);
+      setTimeout(() => setSectionId(id), 300); // match your transition duration
+    } else {
+      setSectionId(id);
+    }
   };
+
 
   return (
     <div
-      className={`sticky top-0 z-50 w-full transition-all duration-1000 ${
-        isHeaderVisible ? 'translate-y-0' : '-translate-y-full'
-      }`}
+      className={`sticky top-0 z-50 w-full transition-all duration-1000 ${isHeaderVisible ? 'translate-y-0' : '-translate-y-full'
+        }`}
     >
       <Navbar className='bg-background/60' rounded fluid>
         {/* ✅ Brand (logo + text inline, like before) */}

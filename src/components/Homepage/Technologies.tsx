@@ -29,7 +29,7 @@ const TextCard = (props: TextCardProps) => {
 
         <Link href='/tools'>
           <div
-            className='cursor-pointer rounded-2xl bg-primary/40 px-4 py-2 text-4xl backdrop-blur-sm hover:bg-primary md:px-6 md:py-3 md:text-4xl'
+            className="cursor-pointer rounded-2xl bg-cyan-500/80 px-4 py-2 text-2xl font-semibold text-black backdrop-blur-sm hover:bg-cyan-400 md:px-6 md:py-3 md:text-3xl"
             onMouseEnter={props.onMouseOver}
             onMouseLeave={props.onMouseLeave}
           >
@@ -104,9 +104,8 @@ export default function HomepageTechnologies(props: HomepageTechnologiesProps) {
             return (
               <div
                 key={index}
-                className={`flex h-16 w-16 items-center justify-center overflow-clip rounded-full object-contain opacity-70 shadow-primary/50 md:h-36 md:w-36 ${
-                  index % 2 === 0 ? 'shadow-xl' : 'shadow-none'
-                }`}
+                className={`flex h-16 w-16 items-center justify-center overflow-clip rounded-full object-contain opacity-70 shadow-primary/50 md:h-36 md:w-36 ${index % 2 === 0 ? 'shadow-xl' : 'shadow-none'
+                  }`}
               >
                 {index % 2 === 0 && (
                   <Image

@@ -90,23 +90,45 @@ export default function WhatsAppOrderForm() {
     })
   };
 
+  //   const handleSubmit = (e: React.FormEvent) => {
+  //     e.preventDefault();
+  //     if (!name || !email || !service || !subService) {
+  //       alert('Please fill all required fields.');
+  //       return;
+  //     }
+
+  //     const message = `Hello 👋,%0A
+  // I would like to order a service from *Trusty Vision*.%0A%0A
+  // *Name:* ${name}%0A
+  // *Email:* ${email}%0A
+  // *Service:* ${service.label}%0A
+  // *Sub-Service:* ${subService.label}%0A
+  // *Details:* ${details}`;
+
+  //     const whatsappURL = `https://wa.me/${phoneNumber}?text=${message}`;
+  //     window.open(whatsappURL, '_blank');
+  //   };
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (!name || !email || !service || !subService) {
+
+    const requiresSubService = service && subServiceOptions[service.value];
+
+    if (!name || !email || !service || (requiresSubService && !subService)) {
       alert('Please fill all required fields.');
       return;
     }
 
-    const message = `Hello, I want to order a service from your IT solutions website.%0A
+    const message = `Hello 👋,%0A
+I would like to order a service from *Trusty Vision*.%0A%0A
 *Name:* ${name}%0A
 *Email:* ${email}%0A
 *Service:* ${service.label}%0A
-*Sub-Service:* ${subService.label}%0A
-*Details:* ${details}`;
+${requiresSubService ? `*Sub-Service:* ${subService.label}%0A` : ''}*Details:* ${details}`;
 
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${message}`;
     window.open(whatsappURL, '_blank');
   };
+
 
   return (
     <InfinityPreloader>
@@ -126,7 +148,7 @@ export default function WhatsAppOrderForm() {
 
         <div className='relative z-10 flex w-full max-w-md flex-col items-center rounded-3xl bg-primary/20 p-10 shadow-xl backdrop-blur-md'>
           <h2 className='mb-6 text-center text-3xl font-bold uppercase text-secondary md:text-4xl'>
-            Order Your Website
+            Order Your Service
           </h2>
           <p className='mb-6 text-center text-gray-300'>
             Share your project details with <span className='text-primary'>Trusty Vision</span> —

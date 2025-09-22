@@ -5,47 +5,35 @@
     "title": "Electronic E-commerce",
     "tags": ["React", "E-commerce", "Tailwind"],
     "images": ["/projects/electronic-ecommerce.png"],
-    "demo": "https://hearwithjee.netlify.app/"
+    "demo": "https://hearwithjee.netlify.app/",
+    "category": "Ecommerce"
   },
   {
-    "preview": "/projects/gaming.png",
-    "text": "Zentrix is a modern, responsive gaming store website designed to deliver an immersive shopping experience for gamers. Featuring a sleek UI, dynamic product displays, and smooth navigation, Zentrix lets users explore and purchase the latest games, consoles, and accessories.",
-    "title": "Gaming Website",
-    "tags": ["React", "Gaming", "Store"],
-    "images": ["/projects/gaming.png"],
-    "demo": "https://zentrixhq.netlify.app/"
+    "preview": "/projects/pj9.png",
+    "text": "An IT solutions provider website with sections for software, cloud services, and case studies.",
+    "title": "IT Company",
+    "tags": ["React", "Tailwind", "Node.js"],
+    "images": ["/projects/pj9.png"],
+    "demo": "https://vetjurv4.github.io/company-profile-template/",
+    "category": "IT Company"
   },
   {
-    "preview": "/projects/3dflow.png",
-    "text": "3D Coverflow is an interactive web component that displays items, images, or albums in a smooth 3D carousel-style animation. Built with HTML, CSS, Tailwind, and JavaScript, it delivers a visually engaging way to showcase portfolios, products, or media collections.",
-    "title": "3D Coverflow",
-    "tags": ["JavaScript", "3D", "Animation"],
-    "images": ["/projects/3dflow.png"],
-    "demo": "https://3dflowbyjeeshan.netlify.app/"
+    "preview": "/projects/pj4.png",
+    "text": "A Japanese food ordering website with a minimal and elegant UI, perfect for restaurants and online delivery services.",
+    "title": "Japanese Food Store",
+    "tags": ["React", "Tailwind", "Food"],
+    "images": ["/projects/pj4.png"],
+    "demo": "https://sushi-landing.netlify.app/",
+    "category": "Food"
   },
   {
-    "preview": "/projects/blogwebsite.png",
-    "text": "A responsive and modern blogging platform where users can read insightful articles on various topics. This project demonstrates a clean design, dynamic content rendering, and smooth user navigation—ideal for sharing knowledge or personal thoughts online.",
-    "title": "Blog Website",
-    "tags": ["React", "Blog", "Responsive"],
-    "images": ["/projects/blogwebsite.png"],
-    "demo": "https://jeeshan77.github.io/Blog/"
-  },
-  {
-    "preview": "/projects/fruits-ecom.png",
-    "text": "FruitsRootz is a modern, full-stack e-commerce platform built for selling fresh fruits and vegetables online. Designed with a clean and responsive UI, the website allows users to explore a wide range of organic produce, view best-seller products, and enjoy a smooth shopping experience with real-time cart updates and intuitive navigation.",
-    "title": "Grocery E-commerce",
-    "tags": ["React", "E-commerce", "Tailwind"],
-    "images": ["/projects/fruits-ecom.png"],
-    "demo": "https://jeeshan77.github.io/Grocery-ecom/"
-  },
-  {
-    "preview": "/projects/qr-code.png",
-    "text": "A sleek and fast QR Code Generator built using React. This tool allows users to generate QR codes instantly for text, URLs, emails, phone numbers, and more—making it useful for personal, business, or event-based sharing. Easily download and share your custom QR codes in seconds.",
-    "title": "QR-Code Generator",
-    "tags": ["React", "QR", "Tool"],
-    "images": ["/projects/qr-code.png"],
-    "demo": "https://qrbyjeeshan.netlify.app/"
+    "preview": "/projects/pj2.png",
+    "text": "A sleek dark-themed portfolio website built to highlight creative work with animations and responsive design.",
+    "title": "Dark Theme Portfolio",
+    "tags": ["React", "Framer Motion", "Tailwind"],
+    "images": ["/projects/pj2.png"],
+    "demo": "https://portfolio-3js.netlify.app/",
+    "category": "Portfolio"
   },
   {
     "preview": "/projects/travelwebsitelogo.png",
@@ -53,14 +41,164 @@
     "title": "Travel Website",
     "tags": ["HTML", "Tailwind", "Travel"],
     "images": ["/projects/travelwebsitelogo.png"],
-    "demo": "https://gowanderly.netlify.app/"
+    "demo": "https://gowanderly.netlify.app/",
+    "category": "Travel"
   },
+  {
+    "preview": "/projects/pj12.png",
+    "text": "A tech solutions site with modern animations and responsive sections for services and case studies.",
+    "title": "Tech Company",
+    "tags": ["React", "GSAP", "Tailwind"],
+    "images": ["/projects/pj12.png"],
+    "demo": "https://eduardocruzpalacios.github.io/corporate-theme-css-javascript/#figures",
+    "category": "IT Company"
+  },
+  {
+    "preview": "/projects/pj3.png",
+    "text": "An Apple Store-inspired e-commerce clone showcasing modern UI patterns, responsive layouts, and smooth interactions.",
+    "title": "Apple Store Clone",
+    "tags": ["Next.js", "TypeScript", "Tailwind"],
+    "images": ["/projects/pj3.png"],
+    "demo": "https://app-iphone.netlify.app/",
+    "category": "Ecommerce"
+  },
+  {
+    "preview": "/projects/fruits-ecom.png",
+    "text": "FruitsRootz is a modern, full-stack e-commerce platform built for selling fresh fruits and vegetables online. Designed with a clean and responsive UI, the website allows users to explore a wide range of organic produce, view best-seller products, and enjoy a smooth shopping experience with real-time cart updates and intuitive navigation.",
+    "title": "Grocery E-commerce",
+    "tags": ["React", "E-commerce", "Tailwind"],
+    "images": ["/projects/fruits-ecom.png"],
+    "demo": "https://jeeshan77.github.io/Grocery-ecom/",
+    "category": "Ecommerce"
+  },
+  {
+    "preview": "/projects/gaming.png",
+    "text": "Zentrix is a modern, responsive gaming store website designed to deliver an immersive shopping experience for gamers. Featuring a sleek UI, dynamic product displays, and smooth navigation, Zentrix lets users explore and purchase the latest games, consoles, and accessories.",
+    "title": "Gaming Website",
+    "tags": ["React", "Gaming", "Store"],
+    "images": ["/projects/gaming.png"],
+    "demo": "https://zentrixhq.netlify.app/",
+    "category": "Gaming"
+  },
+  {
+    "preview": "/projects/3dflow.png",
+    "text": "3D Coverflow is an interactive web component that displays items, images, or albums in a smooth 3D carousel-style animation. Built with HTML, CSS, Tailwind, and JavaScript, it delivers a visually engaging way to showcase portfolios, products, or media collections.",
+    "title": "3D Coverflow",
+    "tags": ["JavaScript", "3D", "Animation"],
+    "images": ["/projects/3dflow.png"],
+    "demo": "https://3dflowbyjeeshan.netlify.app/",
+    "category": "Modern Tools"
+  },
+  {
+    "preview": "/projects/blogwebsite.png",
+    "text": "A responsive and modern blogging platform where users can read insightful articles on various topics. This project demonstrates a clean design, dynamic content rendering, and smooth user navigation—ideal for sharing knowledge or personal thoughts online.",
+    "title": "Blog Website",
+    "tags": ["React", "Blog", "Responsive"],
+    "images": ["/projects/blogwebsite.png"],
+    "demo": "https://jeeshan77.github.io/Blog/",
+    "category": "Blog"
+  },
+  {
+    "preview": "/projects/pj1.png",
+    "text": "Beats Store is a premium e-commerce site dedicated to showcasing headphones and audio gear. Built with a modern UI and optimized for performance.",
+    "title": "Beats E-commerce Store",
+    "tags": ["Next.js", "Tailwind", "E-commerce"],
+    "images": ["/projects/pj1.png"],
+    "demo": "https://ecommerce-app-next.vercel.app/",
+    "category": "Ecommerce"
+  },
+  
   {
     "preview": "/projects/text-analyzer.png",
     "text": "The Text Analyzer Website is a web-based application designed to help users analyze, manipulate, and extract insights from textual data efficiently. Built using React, JavaScript, HTML, and CSS, the platform provides a user-friendly interface where users can input or paste any block of text and perform various analytical functions.",
     "title": "Text Analyzer",
     "tags": ["React", "Text Tool", "Analyzer"],
     "images": ["/projects/text-analyzer.png"],
-    "demo": "https://jeeshan77.github.io/Text-Analyzer/"
+    "demo": "https://jeeshan77.github.io/Text-Analyzer/",
+    "category": "Modern Tools"
+  },
+  
+  
+  {
+    "preview": "/projects/pj5.png",
+    "text": "A bright and clean light-themed portfolio designed to showcase personal and professional projects in a minimal style.",
+    "title": "Light Theme Portfolio",
+    "tags": ["React", "CSS Modules", "Tailwind"],
+    "images": ["/projects/pj5.png"],
+    "demo": "https://portfolio-modern.netlify.app/",
+    "category": "Portfolio"
+  },
+  {
+    "preview": "/projects/pj6.png",
+    "text": "A corporate IT company website with services, case studies, and team sections. Built for professional businesses.",
+    "title": "IT Company",
+    "tags": ["Next.js", "Tailwind", "Corporate"],
+    "images": ["/projects/pj6.png"],
+    "demo": "https://priyansh42.github.io/IT-Company-Website/",
+    "category": "IT Company"
+  },
+  {
+    "preview": "/projects/pj7.png",
+    "text": "An online helmet and accessories store with product grids, responsive design, and smooth navigation.",
+    "title": "Helmet Store",
+    "tags": ["React", "Redux", "Tailwind"],
+    "images": ["/projects/pj7.png"],
+    "demo": "https://rizalfahlevi8.github.io/Company-Profile/",
+    "category": "Ecommerce"
+  },
+  {
+    "preview": "/projects/pj8.png",
+    "text": "A service-oriented IT company website highlighting consulting, digital solutions, and client testimonials.",
+    "title": "IT Service Company",
+    "tags": ["Next.js", "Tailwind", "TypeScript"],
+    "images": ["/projects/pj8.png"],
+    "demo": "https://mdnakibul.github.io/leadsbee-responsive/",
+    "category": "IT Company"
+  },
+  
+  {
+    "preview": "/projects/pj10.png",
+    "text": "A modern, light-themed blogging platform for sharing stories, tutorials, and news with a responsive layout.",
+    "title": "Light Theme Blog",
+    "tags": ["React", "Blog", "Responsive"],
+    "images": ["/projects/pj10.png"],
+    "demo": "https://nextjs-corporate-blog-starter.vercel.app/",
+    "category": "Blog"
+  },
+  {
+    "preview": "/projects/pj11.png",
+    "text": "A development company website that presents services, team, and project showcases with a clean layout.",
+    "title": "Development Company",
+    "tags": ["Next.js", "Tailwind", "Business"],
+    "images": ["/projects/pj11.png"],
+    "demo": "https://rajesh-web-design.vercel.app/",
+    "category": "IT Company"
+  },
+  {
+    "preview": "/projects/pj13.png",
+    "text": "A clean and modern web solutions company website with sections for clients, projects, and testimonials.",
+    "title": "Web Solutions",
+    "tags": ["Next.js", "TypeScript", "Tailwind"],
+    "images": ["/projects/pj13.png"],
+    "demo": "https://andrefelipebarros.github.io/BiSyllab-Web-Design/",
+    "category": "IT Company"
+  },
+  {
+    "preview": "/projects/pj14.png",
+    "text": "A professional software company website showcasing enterprise software solutions and consulting services.",
+    "title": "Software Company",
+    "tags": ["React", "Redux", "Tailwind"],
+    "images": ["/projects/pj14.png"],
+    "demo": "https://sherwinvishesh.github.io/Software-Company-Website/",
+    "category": "IT Company"
+  },
+  {
+    "preview": "/projects/qr-code.png",
+    "text": "A sleek and fast QR Code Generator built using React. This tool allows users to generate QR codes instantly for text, URLs, emails, phone numbers, and more—making it useful for personal, business, or event-based sharing. Easily download and share your custom QR codes in seconds.",
+    "title": "QR-Code Generator",
+    "tags": ["React", "QR", "Tool"],
+    "images": ["/projects/qr-code.png"],
+    "demo": "https://qrbyjeeshan.netlify.app/",
+    "category": "Modern Tools"
   }
 ]
